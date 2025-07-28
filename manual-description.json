@@ -1,0 +1,87 @@
+{
+  "manual_title": "Mission: RoboLab Adventures",
+  "description": "An interactive manual guiding students through 8 fun electronic challenges with their custom STEAM PCB kit.",
+  "slides": [
+    {
+      "slide": 1,
+      "title": "Welcome to RoboLab!",
+      "theme_color": "skyblue",
+      "character": "Captain Byte",
+      "story": "Captain Byte welcomes you aboard the RoboLab — a magical electronics lab where every component brings a new adventure! Today, you’ll be completing 8 missions to become a certified Circuit Commander!",
+      "task": "Get familiar with all the components on your board. Name each one with the help of Captain Byte’s map.",
+      "image_suggestions": ["fun cartoon board layout", "robot holding a map", "happy kid explorers"]
+    },
+    {
+      "slide": 2,
+      "title": "Mission 1: Light Up the Matrix!",
+      "theme_color": "neon green",
+      "character": "Glowy the LED Sprite",
+      "story": "Glowy has lost her pattern spark! Can you help her light up again? Press the buttons to send light to the dot matrix and draw your first symbol!",
+      "task": "Use the push buttons to control individual LEDs on the dot matrix. Try lighting up a smiley face!",
+      "image_suggestions": ["LED grid lighting up", "button being pressed with spark effect"]
+    },
+    {
+      "slide": 3,
+      "title": "Mission 2: The Sound of Buzz!",
+      "theme_color": "sunset orange",
+      "character": "Buzz the Buzzer Bee",
+      "story": "Buzz needs to warm up the hive with just the right sound! But he’s too loud. Can you help him adjust his volume using the VAR dial?",
+      "task": "Turn the potentiometer to increase/decrease the buzzer's volume. Observe how different levels sound.",
+      "image_suggestions": ["bee with a dial", "sound waves rising and falling"]
+    },
+    {
+      "slide": 4,
+      "title": "Mission 3: Switch It Up!",
+      "theme_color": "banana yellow",
+      "character": "Switcheroo the Trickster",
+      "story": "Switcheroo has hidden the control paths! Use the Tri-State switch to choose who gets power: LEDs, Buzzer, or both!",
+      "task": "Toggle the tri-state switch and test what the push buttons control in each position.",
+      "image_suggestions": ["lever switch icon", "circuit path changing"]
+    },
+    {
+      "slide": 5,
+      "title": "Mission 4: Feel the Breeze!",
+      "theme_color": "mint blue",
+      "character": "Windy the Fan Fairy",
+      "story": "Windy is too cold! Use your VAR dial to warm things up slowly. Fan speed must be just right to keep Windy flying.",
+      "task": "Switch the VAR control to Fan mode and adjust fan speed. See how fast it spins!",
+      "image_suggestions": ["fan spinning", "fairy flying in wind"]
+    },
+    {
+      "slide": 6,
+      "title": "Mission 5: Build-a-Bot",
+      "theme_color": "violet",
+      "character": "Professor Bread Board",
+      "story": "Professor Bread needs your help to build his circuit friends. Can you place some components on the breadboard and complete a light circuit?",
+      "task": "Using the breadboard, connect a resistor, LED, and battery rail. Turn it on and watch the LED glow!",
+      "image_suggestions": ["breadboard diagram", "happy robot arm placing a component"]
+    },
+    {
+      "slide": 7,
+      "title": "Mission 6: Detect-o-Meter!",
+      "theme_color": "lava red",
+      "character": "Echo the Ultra Bot",
+      "story": "Echo wants to play distance detective! Can you use the ultrasonic sensor to measure how far objects are and show it on the LED grid?",
+      "task": "Move your hand closer and farther from the sensor and watch the LED matrix change brightness or pattern with distance.",
+      "image_suggestions": ["echo wave sensor", "hand approaching sensor"]
+    },
+    {
+      "slide": 8,
+      "title": "Mission 7: Alarm Alert!",
+      "theme_color": "firetruck red",
+      "character": "Alarmatron X",
+      "story": "The lab is under threat! Build a mini alarm system that goes off when someone gets too close. Use both the sensor and buzzer.",
+      "task": "Use the ultrasonic sensor to trigger the buzzer if an object is within 10 cm. Adjust VAR to make the buzzer softer or louder.",
+      "image_suggestions": ["red alert siren", "robot detecting intruder"]
+    },
+    {
+      "slide": 9,
+      "title": "Mission 8: Super Combo Circuit!",
+      "theme_color": "rainbow",
+      "character": "Captain Byte Returns",
+      "story": "Your final challenge! Combine lights, sound, sensors, and fan in one mega circuit. Can you make a reaction timer or a fan that speeds up when you get closer?",
+      "task": "Build a custom project combining the buzzer, fan, LED matrix, and ultrasonic sensor — be creative!",
+      "image_suggestions": ["kid with glowing board", "robot giving a medal"]
+    }
+  ]
+}
