@@ -1,0 +1,105 @@
+{
+  "pcb_name": "Educational STEAM Kit Board",
+  "power": {
+    "inputs": ["4xAAA Battery Slot", "USB Type-C Rechargeable Port"],
+    "voltage_range": "3V - 5V",
+    "power_distribution": {
+      "regulated": true,
+      "bypass_capacitor_supported": true
+    }
+  },
+  "components": [
+    {
+      "name": "LED Dot Matrix",
+      "type": "5x5 Matrix",
+      "location": "Top-Left",
+      "usage": "Distance display, custom patterns, output feedback"
+    },
+    {
+      "name": "Push Buttons",
+      "type": "Momentary Switches",
+      "location": "Mid-Left",
+      "count": 6,
+      "function_modes": ["LED control", "Buzzer control", "Dual-mode"],
+      "controlled_by": "Tri-State Switch"
+    },
+    {
+      "name": "Tri-State Switch 1",
+      "type": "3-position toggle",
+      "location": "Left of center",
+      "controls": ["Push Button Modes: LED / Buzzer / Both"]
+    },
+    {
+      "name": "Buzzer",
+      "type": "Piezoelectric",
+      "location": "Center",
+      "volume_control": true,
+      "volume_source": "VAR Potentiometer",
+      "capacitor_supported": true
+    },
+    {
+      "name": "VAR Potentiometer",
+      "type": "Rotary Analog Pot",
+      "location": "Below Buzzer",
+      "modes": ["Buzzer Volume", "Fan Speed", "Both"],
+      "controlled_by": "Tri-State Switch 2"
+    },
+    {
+      "name": "Tri-State Switch 2",
+      "type": "3-position toggle",
+      "location": "Below Fan",
+      "controls": ["VAR Output Mode"]
+    },
+    {
+      "name": "Fan",
+      "type": "Mini DC Fan",
+      "location": "Top-Right",
+      "control": "VAR Potentiometer"
+    },
+    {
+      "name": "Breadboard",
+      "type": "Mini Solderless",
+      "location": "Mid-Right",
+      "usage": "Component-level experiments"
+    },
+    {
+      "name": "Ultrasonic Sensor",
+      "type": "HC-SR04 or equivalent",
+      "location": "Bottom-Left",
+      "application": "Measure distance, reflect value on LED Matrix"
+    }
+  ],
+  "interactions": [
+    {
+      "input": "Ultrasonic Distance",
+      "output": "LED Matrix Brightness / Pattern"
+    },
+    {
+      "input": "Push Buttons",
+      "output": ["LED Matrix", "Buzzer"]
+    },
+    {
+      "input": "VAR Potentiometer",
+      "output": ["Buzzer Volume", "Fan Speed"]
+    }
+  ],
+  "educational_use": {
+    "target_audience": "Kids, Beginners, STEM Students",
+    "lessons": [
+      "LED Matrix Programming",
+      "Basic Digital Input",
+      "Analog Voltage Control",
+      "Ultrasonic Distance Measurement",
+      "Fan Speed Control",
+      "Circuit Prototyping with Breadboard",
+      "Power Management & USB Charging"
+    ],
+    "story_manual": true,
+    "project_examples": [
+      "Distance-based buzzer alarm",
+      "Reaction timer with LEDs",
+      "Sound meter",
+      "Mini ventilator with adjustable speed"
+    ]
+  }
+}
